@@ -3,7 +3,11 @@
 ![survive_game_res](https://github.com/MaayanShiran/Ex_2_Survive_Game/assets/95546841/d6e38584-76b7-45e7-8837-2e45bb5a47c9)
 
 ## Description
-This project is a reverse engineering exercise focusing on "Survive Game." The goal is to understand and recreate the game by importing class files, manifest, values folder, and associated XML files. The reverse engineering process involves adapting the imported code and assets to match the desired project package name and SDK version.
+The game mechanics involve user interactions based on their ID number. 
+Each ID number is moduloed by 4 to determine the steps the user needs to take. 
+The 7th position number in the ID determines the town's name where the survival challenge takes place. 
+The game provides four arrow options, each representing a number between 0 and 3. 
+By clicking the correct sequence of arrows, the user can navigate and successfully "survive."
 
 ## Steps Taken Toward the Solution
 1. **Imported Class Files and Manifest:**
